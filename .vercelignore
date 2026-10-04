@@ -1,0 +1,24 @@
+# Backend deps (installed at root via npm install)
+backend/node_modules
+backend/*.log
+
+# Tests
+src/test/**
+
+# Config / editor
+*.log
+.vscode
+.idea
+.DS_Store
+.vscode/*
+
+# Vite / build artifacts (Vercel builds these itself)
+dist
+dist-ssr
+.vite
+
+# Env files (set env vars in Vercel dashboard instead)
+.env
+.env.local
+.env.development.local
+.env.production.local
